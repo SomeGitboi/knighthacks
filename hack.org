@@ -1,0 +1,19 @@
+#+title: Hack
+all stuff small voltage about 5v and a lil over
+* MCU stuff
+** TODO testout the original design and decode the speaker (likely i2s but dunno)
+* Stuff to bring
+** scope
+** soldering
+** logic analyzer?
+* Sensors/Peripherals
+** TODO AS5600 
+- .5 mm to 3mm
+ fuck if i know the magnet strength, test this 
+- can be driven by 6v, better accuracy?
+  - do a lil voltage manipulation perhaps
+    easy 12 and 100k ohm resistor in parallel with the sensor?
+    says output resistive load is 100k ohms at vdd l
+- Gotta look at how noisy the signal will be (bring the scope likely for monitoring at all times)
+- 
+* FPGA stuff
